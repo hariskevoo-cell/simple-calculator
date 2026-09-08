@@ -35,7 +35,7 @@ body {
     color: #e0d9d9;
 }
 
-/* Kila row ndani ya #keys */
+
 #keys>div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -83,12 +83,12 @@ button:active {
     color: #1e1e2f;
 }
 
-/* Equals button */
+
 #eq {
     background: #2d7171;
 }
 
-/* Last row: "0" inatakiwa iwe pana zaidi (mara mbili) */
+
 #keys>div:last-child {
     grid-template-columns: repeat(4, 1fr);
 }
@@ -98,7 +98,7 @@ button:active {
     aspect-ratio: auto;
 }
 
-/* Simu ndogo sana */
+
 @media (max-width: 360px) {
     #keys {
         padding: 0.6rem;
@@ -110,7 +110,7 @@ button:active {
     }
 }
 
-/* Tablet na desktop - calculator isiwe kubwa kupindukia */
+
 @media (min-width: 600px) {
     #keys {
         max-width: 340px;
